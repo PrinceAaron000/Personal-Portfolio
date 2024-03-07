@@ -1,0 +1,159 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#particles-js{
+    height: 100%;
+    position: absolute;
+    top: 50px;
+}
+.main-container{
+    height: 100vh;
+   
+
+    /* Grid  */
+    display: grid;
+    grid-template-areas: 
+    "navbar navbar navbar"
+    "section1 section1 section1"
+    "section2 section2 section2"
+    "section3 section3 section3"
+    "footer footer footer";
+    grid-template-rows: 70px 700px 750px 700px 100px;
+}
+.nav-bar{
+    /* background: red; */
+    grid-area: navbar;
+ 
+}
+.section-1{
+    background: black;
+    grid-area: section1;
+ 
+}
+.section-2{
+    background: black;
+    grid-area: section2;
+   
+}
+.section-3{
+    /* background: yellow; */
+    grid-area: section3;
+    
+}
+.footer{
+    /* background: black; */
+    grid-area: footer;
+}
+nav{
+    background: black;
+    height: 70px;
+    text-align: center;
+}
+a{
+    color: white;
+    font-family: 'Verdana','Montserrat';
+    padding: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    color: orangered;
+    text-decoration: 2px underline;
+}
+.active{
+    color: orangered;
+    text-decoration: 2px underline;
+}
+span{
+    color: orangered;
+    transition: 0.5s;
+}
+span:hover{
+    font-size: 35px;
+}
+.text{
+    text-align: left;
+    /* display: inline-block; */
+    /* background: red; */
+    font-family: 'Verdana','Montserrat';
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    margin-left: 100px;
+    transition: 0.5s;
+}
+.text:hover{
+    font-size: 35px;    
+}
+.contact{
+    padding: 12px;
+    float: inline-end;
+    margin-right: 50px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Verdana','Montserrat';
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+.contact:hover{
+    background: orangered;
+    color: white;
+}
+.text-group{
+    /* background: red; */
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+h2{     
+    font-size: 30px;
+    font-family: 'Verdana','Montserrat';
+    color: white;
+}
+h1{
+    font-size: 45px;
+    font-family: 'Verdana','Montserrat';
+    color: white;
+}
+.paragraph{
+    font-size: 15px;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-family: 'Verdana','Montserrat';
+    text-align: justify;
+    color: white;
+}
+.btn1{
+    padding: 12px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    background: white;
+    color: black;s
+}
+.btn2{
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    color: white;
+    background: orangered;
+}
+.profile-photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 8%;
+}
+      
