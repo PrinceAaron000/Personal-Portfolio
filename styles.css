@@ -1,6 +1,7 @@
 html,body{
     margin: 0;
     padding: 0;
+    background: black;
 }
 #particles-js{
     height: 100%;
@@ -16,11 +17,8 @@ html,body{
     display: grid;
     grid-template-areas: 
     "navbar navbar navbar"
-    "section1 section1 section1"
-    "section2 section2 section2"
-    "section3 section3 section3"
-    "footer footer footer";
-    grid-template-rows: 70px 700px 750px 700px 100px;
+    "section1 section1 section1";
+    grid-template-rows: 70px 700px;
 }
 .nav-bar{
     /* background: red; */
@@ -30,27 +28,11 @@ html,body{
 .section-1{
     background: black;
     grid-area: section1;
- 
-}
-.section-2{
-    background: black;
-    grid-area: section2;
-   
-}
-.section-3{
-    /* background: yellow; */
-    grid-area: section3;
-    
-}
-.footer{
-    /* background: black; */
-    grid-area: footer;
 }
 nav{
     background: black;
     height: 70px;
     text-align: center;
-    position: fixed;
     width: 100%;
 }
 a{
@@ -110,7 +92,7 @@ span:hover{
     background: orangered;
     color: white;
 }
-.text-group{
+.text-group-1{
     /* background: red; */
     display: inline-block;
     margin-left: 100px;
@@ -141,7 +123,7 @@ h1{
     border-radius: 5px;
     letter-spacing: 3px;
     background: white;
-    color: black;s
+    color: black;
 }
 .btn2{
     padding: 12px;
@@ -159,4 +141,3 @@ h1{
     top: 30%;
     right: 8%;
 }
-      
